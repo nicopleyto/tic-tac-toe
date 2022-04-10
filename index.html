@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Nico's TicTacToe Project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" 
+        integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+</head>
+<body>
+    <div class="flexcontainer">
+        <div class="message">X plays first</div>
+
+        <div class="buttons">
+            <div class="reset">Reset board</div>
+            <div class="previous">Previous</div>
+            <div class="next">Next</div>
+        </div>
+
+        <div class="trackers">
+            <div class="xwins">X wins: 0 </div>
+            <div class="owins">O wins: 0</div>
+            <div class="draws">Draws: 0</div>
+        </div>
+
+    </div>
+
+    <div class="boardcontainer">
+        <div class="board">
+            <div id="zero"></div>
+            <div id="one"></div>
+            <div id="two"></div>
+
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+
+            <div id="six"></div>
+            <div id="seven"></div>
+            <div id="eight"></div>
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+</body>
+</html>
